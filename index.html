@@ -5,8 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DatePicker</title>
+    <link rel="stylesheet" href="./utils/reset.css" />
     <link rel="stylesheet" href="./style.css" />
     <script type="module" src="./datePicker.js"></script>
   </head>
-  <body></body>
+  <body>
+    <div class="calendar-container">
+      <h1>Calendar</h1>
+      <div class="calendar">
+        <div class="calendar-nav">
+          <div class="date-month">June</div>
+          <div class="date-year">2023</div>
+          <div class="arrow left"></div>
+          <div class="arrow right"></div>
+        </div>
+        <div class="calendar-grid">
+          <div class="date-week">
+            <ul>
+              <li>SUN</li>
+              <li>MON</li>
+              <li>TUE</li>
+              <li>WED</li>
+              <li>THU</li>
+              <li>FRI</li>
+              <li>SAT</li>
+            </ul>
+          </div>
+          <div class="date-day"></div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

@@ -1,0 +1,45 @@
+.calendar-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #e14d2a;
+  margin-bottom: 15px;
+}
+
+.calendar {
+  width: 250px;
+  height: 300px;
+}
+
+.calendar-nav {
+  height: 60px;
+  background-color: #03c988;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.date-month {
+  color: white;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.date-year {
+  color: white;
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.calendar-grid {
+  height: 240px;
+  background-color: lightblue;
+  border-radius: 0 0 10px 10px;
+}
