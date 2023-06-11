@@ -6,17 +6,17 @@
 
 .bx {
   color: white;
-  font-size: 20px;
+  font-size: calc(var(--calendar-width) / 25);
 }
 
 .bxs-left-arrow {
   position: absolute;
-  top: 23px;
-  left: 25px;
+  top: calc(var(--calendar-width) * 1.2 * 0.2 * 0.42);
+  left: calc(var(--calendar-width) * 1.2 * 0.2 * 0.42);
 }
 
 .bxs-right-arrow {
   position: absolute;
-  top: 23px;
-  right: 25px;
+  top: calc(var(--calendar-width) * 1.2 * 0.2 * 0.42);
+  right: calc(var(--calendar-width) * 1.2 * 0.2 * 0.42);
 }
