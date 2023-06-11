@@ -15,11 +15,22 @@ h1 {
   margin-bottom: 15px;
 }
 
+#date-picker-input {
+  position: relative;
+}
+
 .calendar {
+  visibility: hidden;
+  position: absolute;
+  top: 31px;
   width: var(--calendar-width);
   height: calc(var(--calendar-width) * 1.2);
   border-radius: 10px;
   box-shadow: 0 0 20px gray;
+}
+
+.active {
+  visibility: visible;
 }
 
 .calendar-nav {
