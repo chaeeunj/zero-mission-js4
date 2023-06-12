@@ -7,6 +7,7 @@
 .bx {
   color: white;
   font-size: calc(var(--calendar-width) / 25);
+  cursor: pointer;
 }
 
 .bxs-left-arrow {
